@@ -45,13 +45,40 @@ body {
     padding-bottom: 300px; 
 }
 
-.img {
+.map-responsive{
+    margin: 10px auto;
+
+    overflow:hidden;
+
+    padding-bottom:56.25%;
+
+    position:relative;
+
+    height:0;
+
+}
+
+.map-responsive iframe{
+
+    left:0;
+
+    top:0;
+
+    height:100%;
+
+    width:100%;
+
+    position:absolute;
+
+}
+
+/*.img {
     margin: 10px auto;
     padding: 10px auto;
     width:35%;
-    height:600px;
+    height: 600px;
 }
-
+*/
 
 .wrapper-local {
     width:50%;
